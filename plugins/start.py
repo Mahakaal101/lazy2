@@ -15,7 +15,7 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "-1001934055639")
+CHANNEL = os.environ.get('CHANNEL', "Film_Update_Official")
 STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", 5791145987))
 bot_username = os.environ.get("BOT_USERNAME","Shortfly_Link_Bot")
